@@ -1,0 +1,12 @@
+module flutter_video_info {
+  umbrella header "flutter_video_info-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module flutter_video_info.Swift {
+  header "/Users/ajayboby/Documents/flutterProjects/pmc_app/build/ios/Debug-iphonesimulator/flutter_video_info/Swift Compatibility Header/flutter_video_info-Swift.h"
+  requires objc
+}
